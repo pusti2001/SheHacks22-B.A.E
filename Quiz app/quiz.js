@@ -193,7 +193,7 @@ submitBtn.addEventListener('click', () => {
             <center><p id="demo1"></p></center>
             `
             let text = "Go back to home";
-            let result = text.link("D:\Pusti\SheHacks\BAE\homepage.html");
+            let result = text.link("https://zealous-hypatia-4200fe.netlify.app/#");
             document.getElementById("demo1").innerHTML = result;
            }
            else if(score>=17 && score<=34){
@@ -203,7 +203,7 @@ submitBtn.addEventListener('click', () => {
             <center><p id="demo1"></p></center>
             `
             let text = "Go back to home";
-            let result = text.link("D:\Pusti\SheHacks\BAE\homepage.html");
+            let result = text.link("https://zealous-hypatia-4200fe.netlify.app/#");
             document.getElementById("demo1").innerHTML = result;
            }
            else{
