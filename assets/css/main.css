@@ -608,17 +608,6 @@ section {
     padding: 0 60px;
   }
 }
-.button{
-  background-color: #FA1984;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 25px;
-}
 .hero h2 {
   color: var(--color-secondary);
   margin-bottom: 25px;
