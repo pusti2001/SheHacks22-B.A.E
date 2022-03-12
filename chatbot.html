@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>ChatBot</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+<!-- ChatBot -->
+<link rel="stylesheet" type="text/css" href="/assets/css/jquery.convform.css">
+<script type="text/javascript" src="/assets/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.convform.js"></script>
+<script type="text/javascript" src="/assets/js/custom.js"></script>
+
+</head>
+<body>
+<!-- ChatBot -->
+<div class="chat_icon">
+	<i class="fa fa-comments" aria-hidden="false"></i>
+</div>
+
+<div class="chat_box">
+	<div class="my-conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+
+      <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="NewHere">New here?</option>
+        <option value="More">More about breast cancer </option>
+		<option value="Tests">Tests to be taken for Prediction</option>
+      </select>
+
+      <div data-conv-fork="category">
+        <div data-conv-case="NewHere">
+			<select data-conv-question="Learn about Breast cancer" name="category">
+				<option value="what">What is breast cancer?</option>
+				<option value="More">More about breast cancer </option>
+			  </select>
+        </div>
+
+		<div data-conv-case="what">
+			<input type="text" data-conv-question="Sometimes, breast cells grow and divide abnormally, resulting in a tumor. <br> This can
+			spread to the lymph glands & other parts of the body.">
+		</div>
+
+        <div data-conv-case="More">
+			<select data-conv-question="What's your Query?" name="category">
+				<option value="Symptoms">Symptoms</option>
+				<option value="Precautions">Precautions that can be taken </option>
+				<option value="Age">What age-group is at the risk for breast cancer?</option>
+			  </select>
+        </div>
+
+		<div data-conv-case="Symptoms">
+			<input type="text" name="Symptoms" data-conv-question="Some Symptoms of breast cancer are: <br>- Sudden unevenness <br>- Nipple Discharge <br>
+			- Redness or soreness <br>- Sudden ache or swelling <br> - A lump or thickening"> 
+		</div>
+
+		<div data-conv-case="Precautions">
+			<input type="text" name="precautions" data-conv-question="1. Do a monthly self-breast examination. <br>2. Get a mammogram. <br>3. Eat healthy, stay healthy!"> 
+		</div>
+
+		<div data-conv-case="Age">
+			<input type="text" name="Symptoms" data-conv-question="20-30 yrs ==> 4% <br> 30-40 yrs ==>16% <br> 40-50 yrs ==>28%"> 
+		</div>
+
+		<div data-conv-case="Tests">
+			<input type="text" name="test" data-conv-question="Diagnostic mammogram.
+			Breast magnetic resonance imaging (MRI).
+			Biopsy.">
+		</div>
+
+      </div>  
+
+    <select data-conv-question="Happy to help :)" >
+		<option value="Bye">Bye</option>
+		<option value="More">Learn More. </option>
+	</select>
+
+		<div data-conv-case="More">
+			<select data-conv-question="What's your Query?" >
+				<option value="Symptoms">Symptoms</option>
+				<option value="Precautions">Precautions that can be taken </option>
+				<option value="Age">What age-group is at the risk for breast cancer?</option>
+			  </select>
+        </div>
+	<select data-conv-question="To learn more, Visit our support team! <br>Have a nice day!" > </select>
+
+  	</form>
+	</div>
+</div>
+<!-- ChatBot end -->
+
+<header class="header">
+	<div class="container-fluid">
+		<div class="row d-flex justify-content-between">
+			<div class="col-md-auto">
+				<a href="#!" class="logo"><img src="assets/img/favicon.png" alt="logo"></a>
+			</div>
+			<div class="col-md-auto">
+				<nav class="main_nav">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						
+						
+					</ul>
+				</nav>
+			</div>
+		</div>		
+	</div>
+</header>	
+
+<div class="banner d-flex align-items-center" style="background-image: url('images/banner1.jpg');" id="home">
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				
+			</div>
+		</div>
+	</div>
+</div>			
+
+
+
+</body>
+</html>
