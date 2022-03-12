@@ -11,11 +11,11 @@ window.onload = function() {
       };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-    // This is very IMPORTANT!! We're going to use "db" a lot.
+
     var db = firebase.database()
-    // We're going to use oBjEcT OrIeNtEd PrOgRaMmInG. Lol
+ 
     class MEME_CHAT{
-        // Home() is used to create the home page
+
         home(){
           // First clear the body before adding in
           // a title and the join form
@@ -208,7 +208,7 @@ window.onload = function() {
           // if the local storage name is null and there is no message
           // then return/don't send the message. The user is somehow hacking
           // to send messages. Or they just deleted the
-          // localstorage themselves. But hacking sounds cooler!!
+          // localstorage themselves
           if(parent.get_name() == null && message == null){
             return
           }
@@ -267,7 +267,6 @@ window.onload = function() {
               unordered.push([messages[i], messages[i].index]);
             }
     
-            // Now this is straight up from stack overflow 🤣
             // Sort the unordered messages by the guide
             guide.forEach(function(key) {
               var found = false
@@ -283,7 +282,7 @@ window.onload = function() {
               })
             })
     
-            // Now we're done. Simply display the ordered messages
+            // Simply display the ordered messages
             ordered.forEach(function(data) {
               var name = data.name
               var message = data.message
@@ -321,11 +320,9 @@ window.onload = function() {
     
         }
       }
-      // So we've "built" our app. Let's make it work!!
+  
       var app = new MEME_CHAT()
-      // If we have a name stored in localStorage.
-      // Then use that name. Otherwise , if not.
-      // Go to home.
+
       if(app.get_name() != null){
         app.chat()
       }
