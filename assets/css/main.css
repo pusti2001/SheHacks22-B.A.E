@@ -1498,6 +1498,9 @@ section {
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: var(--color-white);
+  word-wrap:break-word;
+  white-space:initial;
+  white-space:normal;
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
