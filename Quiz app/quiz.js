@@ -190,20 +190,32 @@ submitBtn.addEventListener('click', () => {
             <h2 class="res">You are low risk of breast cancer</h2>
             <h4>Having said that, we want you to self examine your breasts on a regular basis and if you find something fishy, then see your gynac</h4>
             <p>This is only an approximate value, and if you develop any symptoms you should consult your doctor immediately.</p>
+            <center><p id="demo1"></p></center>
             `
+            let text = "Go back to home";
+            let result = text.link("D:\Pusti\SheHacks\BAE\homepage.html");
+            document.getElementById("demo1").innerHTML = result;
            }
            else if(score>=17 && score<=34){
             quiz.innerHTML = `
             <h2 class="res">You are medium risk of breast cancer</h2>
             <p>This is only an approximate value, and if you develop any symptoms you should consult your doctor immediately.</p>
+            <center><p id="demo1"></p></center>
             `
+            let text = "Go back to home";
+            let result = text.link("D:\Pusti\SheHacks\BAE\homepage.html");
+            document.getElementById("demo1").innerHTML = result;
            }
            else{
             quiz.innerHTML = `
             <h2 class="res">You are high risk of breast cancer</h2>
             <h4>Girl, we would like to advise you to meet your gynac ASAP and get your breats checked.</h4>
             <p>This is only an approximate value, and if you develop any symptoms you should consult your doctor immediately.</p>
+            <center><p id="demo1"></p></center>
             `
+            let text = "Go back to home";
+            let result = text.link("D:\Pusti\SheHacks\BAE\homepage.html");
+            document.getElementById("demo1").innerHTML = result;
            }
        }
     }

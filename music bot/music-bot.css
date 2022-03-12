@@ -10,6 +10,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+.main #logo{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 25px;
+  color: #ccc;
+}
+.main #logo i{
+  margin-right: 15px;
+}
 .main {
   position: relative;
   height: 80%;
