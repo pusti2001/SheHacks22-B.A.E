@@ -57,9 +57,8 @@ We achieve this goal by including the following features:
 ![img7](Application/Screenshot%20(19).png)
 
 ### Cancer risk estimation quiz
+![img9](Application/Screenshot%20(22).png)
 ![img10](Application/Screenshot%20(23).png)
-![img11](Application/Screenshot%20(24).png)
-![img12](Application/Screenshot%20(25).png)
 ![img13](Application/Screenshot%20(26).png)
 ![img14](Application/Screenshot%20(27).png)
 
@@ -72,7 +71,6 @@ We achieve this goal by including the following features:
 
 ### Chat in support group
 ![img8](Application/Screenshot%20(21).png)
-![img9](Application/Screenshot%20(22).png)
 
 ### Music-bot
 ![img17](Application/Screenshot%20(30).png)
