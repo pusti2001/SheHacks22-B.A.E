@@ -16,6 +16,9 @@ Our Team 'Babes got Bytes' consists of 4 members:
 - [@jainriya30](https://github.com/jainriya30) (Front-end)
 - [@purvigujar](https://github.com/purvigujar) (Front-end)
 
+## Check out our project
+Link: https://bae-breastcancer.netlify.app/
+
 ## Breast Cancer Prediction using Machine Learning
 ## Description
 Breast cancer is the most common cancer amongst women in the world. It accounts for 25% of all cancer cases, and affected over 2.1 Million people in 2015 alone. It starts when cells in the breast begin to grow out of control. These cells usually form tumors that can be seen via X-ray or felt as lumps in the breast area.
@@ -43,8 +46,37 @@ We achieve this goal by including the following features:
 - A feature to listen to calming and relaxing music to release stress
 - A Friendly chatbot to solve basic doubts women have about Breast cancer, Its symptoms and treatments.
 
-
 ## The Application
+### Home Page
+![img1](Application/Screenshot%20(13).png)
+![img2](Application/Screenshot%20(14).png)
+![img3](Application/Screenshot%20(15).png)
+![img4](Application/Screenshot%20(16).png)
+![img5](Application/Screenshot%20(17).png)
+![img6](Application/Screenshot%20(18).png)
+![img7](Application/Screenshot%20(19).png)
+
+### Cancer risk estimation quiz
+![img10](Application/Screenshot%20(23).png)
+![img11](Application/Screenshot%20(24).png)
+![img12](Application/Screenshot%20(25).png)
+![img13](Application/Screenshot%20(26).png)
+![img14](Application/Screenshot%20(27).png)
+
+### Cancer prediction module
+![img15](Application/Screenshot%20(28).png)
+![img16](Application/Screenshot%20(29).png)
+
+### Chatbot for FAQs
+![img19](Application/Screenshot%20(32).png)
+
+### Chat in support group
+![img8](Application/Screenshot%20(21).png)
+![img9](Application/Screenshot%20(22).png)
+
+### Music-bot
+![img17](Application/Screenshot%20(30).png)
+![img18](Application/Screenshot%20(31).png)
 
 ## Language and tools
 <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/ios-filled/50/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/> <img src="https://img.icons8.com/color/48/000000/python--v1.png"/> <img src="https://img.icons8.com/ios/50/000000/flask.png"/> <img src="https://img.icons8.com/color/48/000000/firebase.png"/>
