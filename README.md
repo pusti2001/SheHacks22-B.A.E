@@ -1,4 +1,4 @@
-# SheHacks22
+## SheHacks22
 
 # B.A.E-Breast Cancer Awareness and Examine 
 
@@ -23,7 +23,7 @@ The key challenges against it’s detection is how to classify tumors into malig
 
 Dataset: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
 
-# Objective
+## Objective
 - Understand the Dataset & cleanup (if required).
 - Build classification models to predict whether the cancer type is Malignant or Benign.
 - Also fine-tune the hyperparameters & compare the evaluation metrics of various classification algorithms.
