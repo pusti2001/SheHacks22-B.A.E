@@ -18,8 +18,8 @@ Our Team 'Babes got Bytes' consists of 4 members:
 
 ## Check out our project
 Link: 
-https://bae-breastcancer.netlify.app/
-https://devfolio.co/submissions/bae-breast-cancer-awareness-and-examine-3349
+* https://bae-breastcancer.netlify.app/
+* https://devfolio.co/submissions/bae-breast-cancer-awareness-and-examine-3349
 
 ## Breast Cancer Prediction using Machine Learning
 ## Description
