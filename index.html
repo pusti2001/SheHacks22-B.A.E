@@ -40,14 +40,6 @@
   <link href="assets/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-  <!-- =======================================================
-  * Template Name: HeroBiz - v2.1.0
-  * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-
   <!-- Links for Chatbot -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
@@ -62,24 +54,65 @@
 </head>
 
 <body>
-
+  <style type="text/css">
+ 
+    /*google translate Dropdown */
+    
+    #google_translate_element select{
+    background:#f6edfd;
+    color:#FA1984;
+    border: none;
+    border-radius:3px;
+    padding:6px 8px
+    }
+    
+    /*google translate link | logo */
+      .goog-logo-link{
+      display:none!important;
+      }
+    .goog-te-gadget{
+    color:transparent!important;
+    }
+    
+    /* google translate banner-frame */
+    
+    .goog-te-banner-frame{
+    display:none !important;
+    }
+    
+    #goog-gt-tt, .goog-te-balloon-frame{display: none !important;}
+   .goog-text-highlight { background: none !important; box-shadow: none !important;}
+    
+    body{top:0!important;}
+      </style>
+    
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
-
       <a href="https://bae-breastcancer.netlify.app/">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="logo.png" alt="" width="200px">
       </a>
 
       <nav id="navbar" class="navbar">
-        
-        
-      </nav><!-- .navbar -->
+        <div id="google_translate_element"></div> 
+        <script type="text/javascript"> 
+        function googleTranslateElementInit() { 
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'}, 
+                'google_translate_element'
+            ); 
+        } 
+      </script> 
       
+      <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+      </script> 
+
       <a href="Online Support Group/onlinesupport.html" class="btn btn-primary" style="background-color:#FA1984; border: none; padding: 15px 32px; border-radius: 25px">Chat in support group</a>
 
+      </nav><!-- .navbar -->
     </div>
+    
   </header><!-- End Header -->
 
   <br><br>
