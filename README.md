@@ -8,14 +8,6 @@ Various symptoms of breast cancer include a painless lump in the breast, a sudde
 Most importantly, it is definitely possible to detect breast cancer early - by being alert. Most other cancers cannot be caught early.
 Therefore, we felt the need to create **B.A.E-Breast cancer Awareness and Examine.**
 
-## Our Team
-Our Team 'Babes got Bytes' consists of 4 members:
-
-- [@pusti2001](https://www.github.com/pusti2001) (Front-end)
-- [@khushi-14](https://github.com/khushi-14) (Machine Learning)
-- [@jainriya30](https://github.com/jainriya30) (Front-end)
-- [@purvigujar](https://github.com/purvigujar) (Front-end)
-
 ## Check out our project
 Link: 
 * https://bae-breastcancer.netlify.app/
